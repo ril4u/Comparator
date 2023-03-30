@@ -1,4 +1,4 @@
-public class Person{
+public class Person {
     private String name;
     protected String surname;
     protected int age;
@@ -49,4 +49,4 @@ public class Person{
         } else if (surname.length() < o1.surname.length()) {
             return -1;
         } else return Integer.compare(age, o1.age);*/
-    }
+}
